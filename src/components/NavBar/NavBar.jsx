@@ -1,14 +1,14 @@
 import { NavLink } from 'react-router-dom'
-import './NavBar.module.css'
+import styles from './NavBar.module.css'
 
 
 const NavBar = () => {
   return (
-    <div className='nav'>
+    <div className={styles.nav}>
       <NavLink to='/'>
         <h1>Alyssa</h1>
       </NavLink>
-      <ul>
+      <ul className={styles.navMenu}>
         <li>
           <NavLink to='/'>Home</NavLink>
         </li>
