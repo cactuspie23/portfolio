@@ -1,7 +1,10 @@
+import BackgroundImg from "../../components/BackgroundImg/BackgroundImg"
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+      <BackgroundImg />
+    </>
   )
 }
 
