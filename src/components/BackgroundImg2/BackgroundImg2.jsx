@@ -1,4 +1,3 @@
-import { FaGrinTongueSquint } from 'react-icons/fa'
 import './BackgroundImg2Styles.css'
 
 const BackgroundImg2 = (props) => {
