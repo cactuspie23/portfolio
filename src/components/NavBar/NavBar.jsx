@@ -24,17 +24,17 @@ const NavBar = () => {
       <NavLink to='/'>
         <h1>Alyssa</h1>
       </NavLink>
-      <ul className={click ? "nav-menu active" : "nav-menu"}>
-        <li>
+      <ul className={click ? "nav-menu active" : "nav-menu"} id='ul' >
+        <li onClick={handleClick}>
           <NavLink to='/'>Home</NavLink>
         </li>
-        <li>
+        <li onClick={handleClick}>
           <NavLink to='about'>About</NavLink>
         </li>
-        <li>
+        <li onClick={handleClick}>
           <NavLink to='projects'>Projects</NavLink>
         </li>
-        <li>
+        <li onClick={handleClick}>
           <NavLink to='contact'>Contact</NavLink>
         </li>
       </ul>
