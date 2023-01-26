@@ -3,7 +3,7 @@ import './ProjectCardStyles.css'
 const ProjectCard = (props) => {
   return (
     <div className='project-card'>
-    <img src={props.image} alt='Create A Corgi' />    
+    <img src={props.image} alt={props.title} />    
     <h2 className='project-title'>{props.title}</h2> 
     <div className='project-details'>
       <p>{props.text}</p>
