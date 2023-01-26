@@ -24,13 +24,13 @@ const ContactForm = () => {
     <div className='form'>
       <form ref={form} onSubmit={sendEmail} id='contact'>
         <label>Your Name</label>
-        <input type="text" name='user_name' />
+        <input type="text" name='user_name' required='true' />
         <label>Email</label>
-        <input type="email" name='user_email' />
+        <input type="email" name='user_email' required='true' />
         <label>Subject</label>
         <input type="text" name='subject' />
         <label>Message</label>
-        <textarea rows='6' name='message' placeholder='Type your message.'/>
+        <textarea rows='6' name='message' placeholder='Type your message' required='true' />
         <button className='btn' type='submit'>Submit</button>
       </form>
     </div>
