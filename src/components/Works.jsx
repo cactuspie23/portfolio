@@ -1,5 +1,6 @@
 import ProjectCard from './ProjectCard/ProjectCard'
 import { projectData } from '../data/ProjectData.js'
+import './ProjectCard/ProjectCardStyles.css'
 
 const Works = () => {
   return (
