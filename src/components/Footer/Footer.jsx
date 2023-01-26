@@ -1,5 +1,5 @@
 import './FooterStyles.css'
-import { FaFacebook, FaGithub, FaHome, FaLinkedin, FaMailBulk } from 'react-icons/fa'
+import { FaGithub, FaHome, FaLinkedin, FaMailBulk } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -13,10 +13,12 @@ const Footer = () => {
             </div>
           </div>
           <div className='email'>
-            <h4>
-              <FaMailBulk size={20} style={{color: '#8ecca9', marginRight: '2rem'}} />
-              alyssadee@outlook.com
-            </h4>
+            <a href='mailto:alyssadee@outlook.com'>
+              <h4>
+                <FaMailBulk size={20} style={{color: '#8ecca9', marginRight: '2rem'}} />
+                alyssadee@outlook.com
+              </h4>
+            </a>
           </div>
         </div>
 
@@ -24,9 +26,12 @@ const Footer = () => {
           <h4>About this page</h4>
           <p>This my website! I enjoy talking about new projects and challenges. Hit me up.</p>
           <div className='social'>
-            <FaFacebook size={30} style={{color: '#8ecca9', marginRight: '1rem'}} />
-            <FaGithub size={30} style={{color: '#8ecca9', marginRight: '1rem'}} />
-            <FaLinkedin size={30} style={{color: '#8ecca9', marginRight: '1rem'}} />
+            <a href='https://github.com/cactuspie23' rel='noreferrer' target='_blank'>
+              <FaGithub size={30} style={{color: '#8ecca9', marginRight: '1rem'}} />
+            </a>
+            <a href='https://www.linkedin.com/in/alyssa-demartinis/' rel='noreferrer' target='_blank'>
+              <FaLinkedin size={30} style={{color: '#8ecca9', marginRight: '1rem'}} />
+            </a>
           </div>
         </div>
       </div>
