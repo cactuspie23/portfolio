@@ -17,7 +17,7 @@ const AboutContent = () => {
             <img src='images/profile2.jpg' alt='profile' className='img'/>
           </div>
           <div className='img-stack bottom'>
-            <img src='images/profile.jpg' alt='profile' className='img'/>
+            <img src='images/profile3.jpg' alt='profile' className='img'/>
           </div>
         </div>
       </div>
