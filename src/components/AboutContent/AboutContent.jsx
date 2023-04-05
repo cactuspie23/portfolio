@@ -7,6 +7,7 @@ const AboutContent = () => {
       <div className='left'>
         <h1>Who Am I?</h1>
         <p>I’m a full-stack software developer with a background in data entry and customer service. Through my data entry experience I've acquired exceptional attention to detail. My unique job history has taught me to be adaptable in any work environment. I possess a natural curiosity to understand how things work, which has compelled me to be self-motivated and autodidactic.</p>
+        <p>Skills: JavaScript, HTML, CSS, React, Node.js, Express, MongoDB, Git, Docker, Postman, Wordpress</p>
         <Link to='/contact'>
           <button className='btn'>Contact</button>
         </Link>
