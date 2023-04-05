@@ -1,7 +1,14 @@
 export const projectData = [
   {
+    title: 'Beauty Beyond Barriers',
+    description: 'I leveraged my skills in JavaScript, React, Node.js, Express, and MongoDB to create an app that helps people with disabilities find accessible beauty products. I worked collaboratively with my team, utilizing Agile and Scrum methodologies, to create a successful and innovative solution.',
+    image: '/images/BBB.png',
+    repositoryLink: 'https://github.com/cactuspie23/beauty-beyond-barriers-front-end',
+    deploymentLink: 'https://beautybeyondbarriers.netlify.app/',
+  },
+  {
     title: 'Create-A-Corgi',
-    description: 'A fun app where users can create their own Corgi and add it to a database. Built with Mongoose, Express, Node, CSS, and Google OAuth.',
+    description: 'A fun app where users can create their very own Corgi and add it to a database. They can customize by adding accessories! Built with Mongoose, Express, Node, CSS, and Google OAuth.',
     image: '/images/cac.png',
     repositoryLink: 'https://github.com/cactuspie23/create-a-corgi',
     deploymentLink: 'https://create-a-corgi.fly.dev/',
